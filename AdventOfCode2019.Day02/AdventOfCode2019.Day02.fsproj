@@ -7,8 +7,8 @@
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
         <ProjectGuid>{B417B580-E7F8-46A8-B53C-00D5CA673EE8}</ProjectGuid>
         <OutputType>Exe</OutputType>
-        <RootNamespace>AdventOfCode2019.Day2.Part2</RootNamespace>
-        <AssemblyName>AdventOfCode2019.Day2.Part2</AssemblyName>
+        <RootNamespace>AdventOfCode2019.Day2</RootNamespace>
+        <AssemblyName>AdventOfCode2019.Day02</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
         <DocumentationFile>bin\$(Configuration)\$(AssemblyName).xml</DocumentationFile>
@@ -48,12 +48,6 @@
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
         <Content Include="packages.config" />
-    </ItemGroup>
-    <ItemGroup>
-      <ProjectReference Include="..\IntcodeComputer\IntcodeComputer.fsproj">
-        <Project>{d974a7c9-1846-4da1-876d-58d68cc1c8e6}</Project>
-        <Name>IntcodeComputer</Name>
-      </ProjectReference>
     </ItemGroup>
     <Import Project="$(FSharpTargetsPath)" Condition="Exists('$(FSharpTargetsPath)')" />
 </Project>

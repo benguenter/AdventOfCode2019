@@ -7,8 +7,8 @@
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
         <ProjectGuid>{B417B580-E7F8-46A8-B53C-00D5CA673EE8}</ProjectGuid>
         <OutputType>Exe</OutputType>
-        <RootNamespace>AdventOfCode2019.Day1</RootNamespace>
-        <AssemblyName>AdventOfCode2019.Day1</AssemblyName>
+        <RootNamespace>AdventOfCode2019.Day7</RootNamespace>
+        <AssemblyName>AdventOfCode2019.Day07</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
         <DocumentationFile>bin\$(Configuration)\$(AssemblyName).xml</DocumentationFile>
@@ -45,9 +45,6 @@
         <Compile Include="AssemblyInfo.fs" />
         <Compile Include="Program.fs" />
         <Content Include="packages.config" />
-        <Content Include="input.txt">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </Content>
     </ItemGroup>
     <Import Project="$(FSharpTargetsPath)" Condition="Exists('$(FSharpTargetsPath)')" />
 </Project>
